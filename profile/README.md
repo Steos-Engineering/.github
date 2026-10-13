@@ -1,75 +1,35 @@
 # Steos Engineering
 
-**Embedded Systems · Secure IoT · Industrial & Energy Solutions**
+**Embedded Linux, firmware and secure IoT - from prototype to certified, maintainable product.**
 
-Steos Engineering is an independent engineering and consultancy organization specializing in **embedded software**, **secure IoT products**, and **industrial Linux systems**.  
-We help companies design, build, and maintain reliable products with a **10+ year lifecycle** — from early prototypes to certified, production-ready systems.
+Steos Engineering B.V. is an embedded engineering consultancy from the Netherlands.
+We build the software inside industrial, energy and IoT products: firmware,
+embedded Linux, secure connectivity and the cloud platform behind it.
+Most of our work is client work and lives in private repositories.
 
----
+## What we work on
 
-## 🚀 Core Expertise
+| Area | Typical work |
+|---|---|
+| **Embedded Linux** | Buildroot, Yocto, mainline kernel, U-Boot, board bring-up (NXP i.MX, Raspberry Pi), robust and secure A/B update schemes |
+| **Firmware** | Rust (`esp-hal`, Embassy, `no_std`) and C on ESP32, STM32 and nRF; bootloaders, secure boot, flash encryption, OTA |
+| **Secure IoT** | Private PKI, mTLS, MQTT over TLS 1.3, device identity and provisioning, fleet management |
+| **Industrial & energy** | CANopen, Modbus, RS-485, smart meters (DSMR/P1), inverters, PLC integration, RTK GNSS |
+| **Cloud** | Multi-tenant services, asset management, firmware update server, fleet compliance checks, NTRIP caster for RTK corrections, map tile caching, web front-ends, OIDC single sign-on, Ansible-managed infrastructure |
+| **Hardware & production** | KiCad schematics and PCB layout, production programming and test jigs |
+| **Compliance** | RED and EN 18031, ETSI EN 303 645, CRA readiness, SBOMs, ICS/IXIT documentation |
 
-Our expertise sits at the intersection of **hardware, firmware, and backend infrastructure**.
+Our cloud services and embedded products are also available as OEM / white-label, under your own brand.
 
-### Embedded & Firmware
-- Embedded Linux (Yocto, Buildroot)
-- Bare-metal & RTOS development (C / Rust)
-- Secure boot, flash encryption, OTA updates
-- STM32, ESP32, NXP i.MX, Nordic nRF
-- Bootloaders and low-level platform bring-up
+## How we work
 
-### Secure IoT & Device Management
-- mTLS, PKI, certificate hierarchies
-- Long-term device lifecycle management
-- Fleet provisioning & remote updates
-- MQTT, HTTPS, CoAP
-- Manufacturing tooling and test jigs (DUT / DIB)
+- **Security by design** - secure boot, signed updates and a PKI from the first prototype, not bolted on before certification.
+- **Mainline first** - upstream kernels and maintained crates over vendor forks, so products can still be updated in ten years.
+- **Reproducible everything** - builds, versions and release documents come from the repository, not from someone's laptop.
+- **No lock-in** - clients receive the full source, build environment and documentation.
 
-### Industrial & Energy Systems
-- Smart meter interfaces (DSMR / P1 / TIC)
-- Energy monitoring and control
-- PLC / IPC integrations
-- Linux-based gateways and HMIs
+## Contact
 
-### Compliance & Certification
-- CE / RED (including cybersecurity requirements)
-- ETSI EN 303 645
-- NEN-EN 18031-1:2024
-- CRA / NIS2 readiness
-- ICS / IXIT documentation
-- SBOM generation and audit-ready tooling
-
----
-
-## 🧠 Engineering Philosophy
-
-We strongly believe in:
-
-- **Security by design**, not as an afterthought
-- **Automation** across build, test, and release pipelines
-- **Open standards** and reproducible tooling
-- **Maintainability** across the full product lifecycle
-
----
-
-## 🤝 Collaboration
-
-Steos Engineering is available for:
-
-- Architecture and design reviews
-- Freelance / interim engineering support
-- Embedded and IoT product development
-- Compliance and certification trajectories
-- Troubleshooting and root-cause analysis
-
----
-
-## 📫 Contact
-
-- 🌐 Website: **https://steos-engineering.nl**
-- 💼 LinkedIn: *Steos Engineering*
-- ✉️ Contact: via website or LinkedIn
-
----
-
-© Steos Engineering — Building reliable systems that last.
+[steos-engineering.nl](https://steos-engineering.nl) ·
+[stef@steos-engineering.nl](mailto:stef@steos-engineering.nl) ·
+[LinkedIn](https://www.linkedin.com/company/steos-engineering)

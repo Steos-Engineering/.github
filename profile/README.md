@@ -11,7 +11,7 @@ Most of our work is client work and lives in private repositories.
 
 | Area | Typical work |
 |---|---|
-| **Embedded Linux** | Buildroot, Yocto, mainline kernel, U-Boot, board bring-up (NXP i.MX, Raspberry Pi), robust and secure A/B update schemes |
+| **Embedded Linux** | Buildroot, Yocto, mainline kernel, U-Boot, board bring-up (NXP i.MX6/8/9, STM32MP1/2, Raspberry Pi), robust and secure A/B update schemes |
 | **Firmware** | Rust (`esp-hal`, Embassy, `no_std`) and C on ESP32, STM32 and nRF; bootloaders, secure boot, flash encryption, OTA |
 | **Secure IoT** | Private PKI, mTLS, MQTT over TLS 1.3, device identity and provisioning, fleet management |
 | **Industrial & energy** | CANopen, Modbus, RS-485, smart meters (DSMR/P1), inverters, PLC integration, RTK GNSS |

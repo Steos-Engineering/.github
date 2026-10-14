@@ -1,6 +1,7 @@
-# Steos Engineering
-
-**Embedded Linux, firmware and secure IoT - from prototype to certified, maintainable product.**
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Steos-Engineering/.github/main/profile/images/banner-dark.svg">
+  <img alt="Steos Engineering - Embedded Linux, firmware and secure IoT, from prototype to certified, maintainable product." src="https://raw.githubusercontent.com/Steos-Engineering/.github/main/profile/images/banner-light.svg" width="100%">
+</picture>
 
 Steos Engineering B.V. is an embedded engineering consultancy from the Netherlands.
 We build the software inside industrial, energy and IoT products: firmware,
